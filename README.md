@@ -1,4 +1,4 @@
-# Dynamic controllers for Slim Framework example
+# rka-slim-controller example app
 
 This very simple example Slim Framework application that shows how you could
 route to controller action methods where the controller is dynamically
