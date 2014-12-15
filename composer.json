@@ -1,6 +1,7 @@
 {
     "require": {
-        "slim/slim": "~2.5"
+        "slim/slim": "~2.5",
+        "akrabat/rka-slim-controller": "~1.0"
     },
     "autoload": {
         "psr-4": {

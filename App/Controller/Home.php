@@ -17,6 +17,11 @@ class Home
         echo "Hello, $name";
     }
 
+    public function setApp($app)
+    {
+        $this->app = $app;
+    }
+
     public function setRequest($request)
     {
         $this->request = $request;

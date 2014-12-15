@@ -4,8 +4,51 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ff4ce36d6aac03a248303f3bd08114c8",
+    "hash": "509033affdccb71b45ded18afe964009",
     "packages": [
+        {
+            "name": "akrabat/rka-slim-controller",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/akrabat/rka-slim-controller.git",
+                "reference": "3dda605822dbf9249c763df25a7cc59ceb9b55a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/akrabat/rka-slim-controller/zipball/3dda605822dbf9249c763df25a7cc59ceb9b55a7",
+                "reference": "3dda605822dbf9249c763df25a7cc59ceb9b55a7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "slim/slim": "~2.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RkaSc\\": "RkaSc"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Allen",
+                    "email": "rob@akrabat.com",
+                    "homepage": "http://akrabat.com"
+                }
+            ],
+            "description": "Dynamically instantiated controller classes for Slim Framework",
+            "homepage": "http://github.com/akrabat/rka-slim-controller",
+            "keywords": [
+                "controller",
+                "slim"
+            ],
+            "time": "2014-12-15 09:53:04"
+        },
         {
             "name": "slim/slim",
             "version": "2.5.0",
