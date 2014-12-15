@@ -32,7 +32,10 @@ class Slim extends \Slim\Slim
                 $controller = new $controllerName($app);
             }
 
-            // Set the request and response if we can
+            // Set the App, request and response into the controller if we can
+            if (method_exists($controller, 'setApp')) {
+                $controller->setApp($app);
+            }
             if (method_exists($controller, 'setRequest')) {
                 $controller->setRequest($app->request);
             }
